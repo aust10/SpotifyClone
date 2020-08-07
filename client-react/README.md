@@ -9,6 +9,6 @@ Once you have changed those two values you can run:
 ## npm i
 ## npm start
 
-(./public/picture.png)
+![Spotify](./client-react/public/picture.png)
 
 * This is a multi hour tutorial provided by "Clever Programer" on youtube. 
