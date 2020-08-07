@@ -14,7 +14,7 @@ function Body ({ spotify }) {
   const playPlaylist = (id) => {
     spotify
       .play({
-        context_uri: `spotify:playlist:${codes.PlayCircleFilledIconcontextID}`
+        context_uri: `spotify:playlist:${codes.contextID}`
       })
       .then((res) => {
         spotify.getMyCurrentPlayingTrack().then((r) => {
